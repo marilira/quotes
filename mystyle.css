@@ -1,5 +1,16 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .flex-container {
     display: flex;
+    align-items: center;
     justify-content: center;
     background-color: DodgerBlue;
   }
