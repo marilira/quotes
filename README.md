@@ -11,4 +11,4 @@ Link: https://bernardocamps.github.io/quotes/
 - [x] Introdução de css e melhorias na interface.
 - [ ] Atualizar a página: timer ou botão?
 - [ ] Criar banco de dados para armazenar as quotes.
-- [ ] Criar backend / API.
+- [ ] Criar backend / API - [Heroku](https://www.heroku.com)
