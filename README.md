@@ -6,3 +6,8 @@ Projeto proposto por **Marcelo Pinheiro**, administrador do grupo **OsProgramado
 **Objetivo**: criar um projeto em JavaScript para mostrar **quotes** diferentes todos os dias.
 
 Link: https://bernardocamps.github.io/quotes/
+
+## Melhorias
+- [x] Introdução de css e melhorias na interface.
+- [ ] Atualizar a página: timer ou botão?
+- [ ] Criar backend.
