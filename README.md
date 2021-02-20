@@ -20,3 +20,4 @@ Link: https://bernardocamps.github.io/quotes/
 * O que é JavaScript? - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)
 * O que é uma Função Assíncrona? - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
 * O que são Operadores de Comparação? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_comparação)
+* O que significa a declaração try...catch? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch)
