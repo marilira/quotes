@@ -4,14 +4,18 @@
 let globalText = null;
 let globalAuthor = null;
 let globalQuotes = [];
+let globalButton = null;
 
 window.addEventListener('load', start);
 
 async function start() {
     globalText = document.getElementById('text');
     globalAuthor = document.getElementById('author');
+    globalButton = document.getElementById('newQuote');
     await getQuotes();
 
+    globalButton.addEventListener('click', inspiracao);
+    
     inspiracao();
 }
 
