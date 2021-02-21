@@ -23,3 +23,4 @@ Link: https://bernardocamps.github.io/quotes/
 * O que é uma Função Assíncrona? - [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas)
 * O que significa a declaração try...catch? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/try...catch)
 * O que são Operadores de Comparação? [Link](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Operadores_de_comparação)
+* Introdução a Node e Express - [Link](https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/Express_Nodejs/Introdução)
