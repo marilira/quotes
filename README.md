@@ -8,11 +8,12 @@ Projeto proposto por **[Marcelo Pinheiro](https://twitter.com/mpinheir)**, admin
 Link: https://bernardocamps.github.io/quotes/
 
 ## ⚙ Melhorias
-- [x] Introdução de css e melhorias na interface
-- [x] Mudança para async/await - economia de dados da API
-- [ ] Atualizar a página: timer ou botão?
+- [x] Introdução de css e melhorias na interface.
+- [x] Mudança para async/await - economia de dados da API.
+- [x] Adicionado botão para atualizar a página.
+- [ ] Pendente em relação ao botão atualizar: ajustar CSS - [Issue](https://github.com/bernardocamps/quotes/issues/10)
+- [ ] Backend em desenvolvimento.
 - [ ] Criar banco de dados para armazenar as quotes.
-- [ ] Criar backend / API - [Heroku](https://www.heroku.com)
 
 ## 📚 Entendendo o código
 * O que é HTML? - [Link](https://developer.mozilla.org/pt-BR/docs/Aprender/HTML/Introducao_ao_HTML/Getting_started)
