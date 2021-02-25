@@ -1,0 +1,12 @@
+.button {
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: normal;
+    padding: 0.5rem;
+    margin: 2rem;  
+}
+
+.green {
+    background: #4cd62b; 
+ }
