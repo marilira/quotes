@@ -5,27 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../../public/mystyle.css">
+    <link rel="stylesheet" href="../../public/css/main.css">
+    <link rel="stylesheet" href="../../public/css/page-landing.css">
+    <link rel="stylesheet" href="../../public/css/button.css">
+    
     <link rel="icon" href="../../public/img/quotes.webp">
     
     <title>Quotes</title>
   </head>
 
   <body>
-    <div class="container">
-      <blockquote>
-        <span id="text"></span>
-        <i>
-          <p>
-            <span id="author"></span>
-          </p>
-        </i>
-      </blockquote>
-    
-      <div>
-        <button type="button" id="newQuote" onclick="getNewQuote();">Nova citação</button>
-      </div>
+    <div id="page-landing">
+      
+        <blockquote>
+          <span id="text"></span>
+          <i>
+            <p>
+              <span id="author"></span>
+            </p>
+          </i>
+        </blockquote>
+        
+        <button 
+          type="button" 
+          class="button green" 
+          id="newQuote" 
+          onclick="getNewQuote();"
+        >
+          Nova citação
+        </button>
+
     </div>
   </body>
-  <script type="text/javascript" src="../../public/quotes.js"></script>
+  <script type="text/javascript" src="../../public//scripts/quotes.js"></script>
 </html>
