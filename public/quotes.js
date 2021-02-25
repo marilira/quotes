@@ -1,46 +1,35 @@
-// Utilizando Quotes Free API
-// https://type.fit/api/quotes
+const quotes = [{
+    "quoteText": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "quoteAuthor": "Thomas Edison"
+    }, {
+    "quoteText": "You can observe a lot just by watching.",
+    "quoteAuthor": "Yogi Berra"
+    }, {
+    "quoteText": "A house divided against itself cannot stand.",
+    "quoteAuthor": "Abraham Lincoln"
+    }, {
+    "quoteText": "Difficulties increase the nearer we get to the goal.",
+    "quoteAuthor": "Johann Wolfgang von Goethe"
+    }, {
+    "quoteText": "Fate is in your hands and no one elses",
+    "quoteAuthor": "Byron Pulsifer"
+    }, {
+    "quoteText": "Be the chief but never the lord.",
+    "quoteAuthor": "Lao Tzu"
+    }
+];
 
-let globalText = null;
-let globalAuthor = null;
-let globalQuotes = [];
-let globalButton = null;
-
-window.addEventListener('load', start);
-
-async function start() {
-    globalText = document.getElementById('text');
-    globalAuthor = document.getElementById('author');
-    globalButton = document.getElementById('newQuote');
-    await getQuotes();
-
-    globalButton.addEventListener('click', inspiracao);
+function getNewQuote() {
+    const textElement = document.getElementById('text');
+    const authorElement = document.getElementById('author');
     
-    inspiracao();
-}
-
-async function getQuotes() {
-    try {
-        res = await fetch('https://type.fit/api/quotes');
-        globalQuotes = await res.json();
-
-    } catch (err) {
-        console.log(err);
-
-        /// Pode comentar aqui, assim ele está mostrando o erro como um quote kkkk
-        globalQuotes = [{
-            text: err,
-            author: 'Error'
-        }];
-        /////
+    function randomQuotePosition() {
+        let QuotePosition = Math.floor(Math.random() * quotes.length);
+        textElement.innerHTML = quotes[QuotePosition].quoteText;
+        authorElement.innerHTML = quotes[QuotePosition].quoteAuthor;
     }
+
+    randomQuotePosition();
 }
 
-function inspiracao() {
-    if (globalQuotes.length === 0) {
-        return;
-    }
-    var i = Math.floor(Math.random() * globalQuotes.length);
-    globalText.innerHTML = globalQuotes[i].text;
-    globalAuthor.innerHTML = globalQuotes[i].author;
-}
+getNewQuote();

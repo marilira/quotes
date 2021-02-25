@@ -3,6 +3,7 @@ html, body {
 }
 
 body {
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,6 +55,7 @@ blockquote i {
 button {
   border: 0;
   border-radius: 4px;
+  cursor: pointer;
   font-weight: 600;
   padding: 0.5rem;
   background: #4cd62b;
