@@ -86,3 +86,29 @@ fieldset legend {
     height: 5rem;
     padding: 0 1.6rem;
 }
+
+.hidden {
+    display: none;
+}
+
+.new-quote {
+    position: relative;
+    margin-top: 5rem;
+}
+
+.new-quote legend span {
+    position: absolute;
+    
+    right: 8px;
+    top: 2rem;
+
+    border: 1px dashed #96d2f0;
+    border-radius: 10px;
+
+    background: #f5f8fa;
+    box-sizing: border-box;
+    display: flex;
+    padding: .4rem;
+
+    cursor: pointer;
+}

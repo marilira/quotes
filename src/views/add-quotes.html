@@ -26,7 +26,7 @@
                             <label for="quote">Citação 
                                 <span>Digite sem aspas em volta</span>
                             </label>
-                            <textarea name="quote" id="quote" cols="30" rows="10"></textarea>
+                            <textarea name="quote" id="quote" required cols="30" rows="10"></textarea>
                         </div>
                     </fieldset>
 
@@ -35,9 +35,41 @@
 
                         <div class="input-group">
                             <label for="name">Nome</label>
-                            <input id="name" name="name">
+                            <input id="name" name="author" required>
                         </div>
+
+                        <div id="new-quote" class="hidden">
+                            <fieldset class="new-quote">
+                                <legend>Nova quote
+                                    <span onclick="deleteField(event)">
+                                        <img src="../../public/img/remove-quote.svg" alt="Remover quote" title="Remover Nova quote">
+                                    </span>
+                                </legend>  
+
+                                <div class="input-group">
+                                    <label for="quote">Citação 
+                                        <span>Digite sem aspas em volta</span>
+                                    </label>
+                                    <textarea name="quote" id="quote" cols="30" rows="10"></textarea>
+                                </div>
+
+                                <div class="input-group">
+                                    <label for="name">Nome</label>
+                                    <input id="name" name="author">
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <button 
+                            type="button" 
+                            class="button more hidden"
+                            onclick="addNewQuoteField()"
+                        >
+                            <img src="../../public/img/add-quote.svg" alt="Nova quote" title="Adicionar mais quotes"> 
+                        </button>
                     </fieldset>
+
+                    <button type="submit" class="button submit-button">Adicionar quote</button>
                 </form>
             </main>  
         </div>
